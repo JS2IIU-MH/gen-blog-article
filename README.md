@@ -70,7 +70,7 @@ math:
 | `- 箇条書き`<br>`* 箇条書き` | `<!-- wp:list -->...<!-- /wp:list -->`（ulist） |
 | `1. 番号付き`<br>`2. 番号付き` | `<!-- wp:list {"ordered":true} -->...<!-- /wp:list -->`（olist） |
 | <pre>```python\nprint("hi")\n```</pre> | `<!-- wp:code {"language":"python"} -->...<!-- /wp:code -->`（Code Block Pro対応） |
-| `| テーブル |`<br>`|---|` | `<!-- wp:table -->...<!-- /wp:table -->` |
+| `\| テーブル \|`<br>`\|---\|` | `<!-- wp:table -->...<!-- /wp:table -->` |
 | `$数式$`<br>`$$数式$$` | `<!-- wp:math -->...<!-- /wp:math -->` |
 | `通常のテキスト` | `<!-- wp:paragraph -->...<!-- /wp:paragraph -->` |
 
