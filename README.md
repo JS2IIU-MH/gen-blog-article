@@ -68,11 +68,15 @@ math:
 | `##### 見出し5` | `<!-- wp:heading {"level":5} -->...<!-- /wp:heading -->` |
 | `> 引用文` | `<!-- wp:quote -->...<!-- /wp:quote -->` |
 | `- 箇条書き`<br>`* 箇条書き` | `<!-- wp:list -->...<!-- /wp:list -->`（ulist） |
-| `1. 番号付き` | `<!-- wp:list {"ordered":true} -->...<!-- /wp:list -->`（olist） |
-| <code>```python<br>print("hi")<br>```</code> | `<!-- wp:code {"language":"python"} -->...<!-- /wp:code -->`（Code Block Pro対応） |
-| `| テーブル |` | `<!-- wp:table -->...<!-- /wp:table -->` |
-| 数式（例: `$...$`や`$$...$$`） | `<!-- wp:math -->...<!-- /wp:math -->` |
-| 通常のテキスト | `<!-- wp:paragraph -->...<!-- /wp:paragraph -->` |
+| `1. 番号付き`<br>`2. 番号付き` | `<!-- wp:list {"ordered":true} -->...<!-- /wp:list -->`（olist） |
+| <pre>```python\nprint("hi")\n```</pre> | `<!-- wp:code {"language":"python"} -->...<!-- /wp:code -->`（Code Block Pro対応） |
+| `| テーブル |`<br>`|---|` | `<!-- wp:table -->...<!-- /wp:table -->` |
+| `$数式$`<br>`$$数式$$` | `<!-- wp:math -->...<!-- /wp:math -->` |
+| `通常のテキスト` | `<!-- wp:paragraph -->...<!-- /wp:paragraph -->` |
+
+---
+
+ご要望に応じて他のMarkdown要素や独自ブロックも追加可能です。
 
 ## テスト
 
