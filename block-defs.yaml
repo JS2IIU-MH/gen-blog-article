@@ -1,0 +1,26 @@
+title:
+  pattern: "<!-- wp:title -->\n{content}\n<!-- /wp:title -->"
+heading:
+  pattern: "<!-- wp:heading -->\n{content}\n<!-- /wp:heading -->"
+heading2:
+  pattern: "<!-- wp:heading {\"level\":2} -->\n{content}\n<!-- /wp:heading -->"
+heading3:
+  pattern: "<!-- wp:heading {\"level\":3} -->\n{content}\n<!-- /wp:heading -->"
+heading4:
+  pattern: "<!-- wp:heading {\"level\":4} -->\n{content}\n<!-- /wp:heading -->"
+heading5:
+  pattern: "<!-- wp:heading {\"level\":5} -->\n{content}\n<!-- /wp:heading -->"
+quote:
+  pattern: "<!-- wp:quote -->\n{content}\n<!-- /wp:quote -->"
+ulist:
+  pattern: "<!-- wp:list -->\n{content}\n<!-- /wp:list -->"
+olist:
+  pattern: "<!-- wp:list {\"ordered\":true} -->\n{content}\n<!-- /wp:list -->"
+paragraph:
+  pattern: "<!-- wp:paragraph -->\n{content}\n<!-- /wp:paragraph -->"
+table:
+  pattern: "<!-- wp:table -->\n{content}\n<!-- /wp:table -->"
+code:
+  pattern: "<!-- wp:code -->\n{content}\n<!-- /wp:code -->"
+math:
+  pattern: "<!-- wp:math -->\n{content}\n<!-- /wp:math -->"
